@@ -1,1 +1,1 @@
-sawfawfawfwafa
+alert tcp $EXTERNAL_NET any -> $HTTP_SERVERS 1080(msg:"TEST ALERT";content:"hostip";offset:9;depth:10;)
